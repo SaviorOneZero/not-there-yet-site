@@ -1,12 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Not There Yet mark">
   <title>Not There Yet mark</title>
+  <defs>
+    <linearGradient id="tile" x1="18" y1="14" x2="102" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="0.56" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="route" x1="30" y1="89" x2="86" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
 
-  <rect x="10" y="10" width="100" height="100" rx="26" fill="#0F172A"/>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="url(#tile)"/>
+  <path d="M30 88 C50 70 42 54 61 45 C75 38 78 29 72 22" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-opacity="0.24" fill="none"/>
+  <path d="M30 88 C50 70 42 54 61 45 C75 38 78 29 72 22" stroke="url(#route)" stroke-width="10" stroke-linecap="round" fill="none"/>
 
-  <path d="M36 42 C48 30 72 30 84 42" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" fill="none"/>
-  <path d="M32 70 C32 58 44 52 60 52 C76 52 88 58 88 70 C88 82 76 88 60 88 C44 88 32 82 32 70 Z" fill="#3B82F6"/>
+  <circle cx="30" cy="88" r="11" fill="#3B82F6"/>
+  <circle cx="30" cy="88" r="4.5" fill="#FFFFFF"/>
 
-  <circle cx="50" cy="70" r="4.5" fill="#FFFFFF"/>
-  <circle cx="70" cy="70" r="4.5" fill="#FFFFFF"/>
-  <path d="M48 58 C52 54 68 54 72 58" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="56" cy="48" r="8" fill="#16A34A"/>
+  <circle cx="56" cy="48" r="3.5" fill="#FFFFFF"/>
+
+  <path d="M84 31 C84 44 72 55 72 55 C72 55 60 44 60 31 C60 24.4 65.4 19 72 19 C78.6 19 84 24.4 84 31 Z" fill="#F59E0B"/>
+  <circle cx="72" cy="31" r="5" fill="#FFFFFF"/>
 </svg>
