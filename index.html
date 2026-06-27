@@ -1,56 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Not There Yet</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 720px;
-      margin: 48px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1 {
-      font-size: 2.4rem;
-      margin-bottom: 0.25rem;
-    }
-    .tagline {
-      font-size: 1.2rem;
-      color: #555;
-      margin-bottom: 2rem;
-    }
-    a {
-      color: #0066cc;
-    }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
-</head>
-<body>
-  <h1>Not There Yet</h1>
-  <p class="tagline">A family road-trip game for the miles between here and there.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="RoadQuest is a modern, family-friendly road-trip companion for shared adventures on the move."
+    />
+    <title>RoadQuest</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <p>
-    Not There Yet is an iOS road-trip game built for local, shared-device play.
-    Add your road crew, start a trip, and play simple games together along the way.
-  </p>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html" aria-label="RoadQuest home">
+          <img src="assets/roadquest-mark.svg" alt="RoadQuest mark" />
+          <span>RoadQuest</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
 
-  <p>
-    For help or questions, visit the <a href="support.html">Support page</a>.
-  </p>
+    <main id="main-content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">The road-trip companion for families</p>
+            <h1>Make the miles feel lighter, brighter, and more shared.</h1>
+            <p class="lead">
+              RoadQuest brings simple, joyful games and prompts to the car so every trip feels a little more playful,
+              a little more connected, and a lot more memorable.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="support.html">Get help</a>
+              <a class="button secondary" href="about.html">Learn more</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="RoadQuest experience overview">
+            <div class="card-pill">Built for family road trips</div>
+            <ul>
+              <li>Lightweight, easy-to-pick-up games</li>
+              <li>Friendly competition without feeling corporate</li>
+              <li>Designed for quick play on the go</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-  <p>
-    To learn how the app handles data, read the <a href="privacy.html">Privacy Policy</a>.
-  </p>
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Why it feels like RoadQuest</p>
+            <h2>A polished app experience, extended into the web.</h2>
+          </div>
+          <div class="card-grid three-up">
+            <article class="info-card">
+              <h3>Clean and modern</h3>
+              <p>The visual style leans into the app’s calm, friendly energy with clear hierarchy and spacious layouts.</p>
+            </article>
+            <article class="info-card">
+              <h3>Family-first</h3>
+              <p>Every touchpoint is designed to feel approachable, playful, and welcoming for all ages.</p>
+            </article>
+            <article class="info-card">
+              <h3>Ready to grow</h3>
+              <p>The structure leaves room for expansion packs, release notes, and future product updates without feeling crowded.</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>&copy; 2026 Not There Yet. All rights reserved.</p>
-  </footer>
-</body>
+      <section class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What’s next</p>
+            <h2>A home for the RoadQuest story as it expands.</h2>
+          </div>
+          <div class="card-grid four-up">
+            <article class="info-card roadmap-card">
+              <h3>Expansion packs</h3>
+              <p>New themes, new challenges, and new ways to keep the journey fresh.</p>
+            </article>
+            <article class="info-card roadmap-card">
+              <h3>Release notes</h3>
+              <p>Share updates, polish, and the latest improvements in a clear, friendly format.</p>
+            </article>
+            <article class="info-card roadmap-card">
+              <h3>FAQ</h3>
+              <p>Answer common questions in a lightweight, searchable experience.</p>
+            </article>
+            <article class="info-card roadmap-card">
+              <h3>Quest Platform</h3>
+              <p>Support the future of family-friendly play with a consistent, scalable experience.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>RoadQuest • Designed for family adventures on the road.</p>
+        <a href="mailto:questplatformapps@gmail.com">questplatformapps@gmail.com</a>
+      </div>
+    </footer>
+  </body>
 </html>
