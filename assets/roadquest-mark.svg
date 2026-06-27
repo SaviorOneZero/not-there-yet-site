@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Quest Platform icon">
-  <title>Quest Platform</title>
-  <rect x="16" y="16" width="88" height="88" rx="24" fill="#0F172A"/>
-  <path d="M36 40 C46 24 74 24 84 40" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" fill="none"/>
-  <path d="M34 58 C44 52 56 50 68 50 C80 50 86 54 86 62 C86 74 72 82 58 82 C46 82 34 76 34 62 Z" fill="#3B82F6"/>
-  <path d="M46 58 C50 54 58 52 64 52 C70 52 76 54 80 58" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <circle cx="54" cy="68" r="4" fill="#FFFFFF"/>
-  <circle cx="72" cy="68" r="4" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Quest Platform mark">
+  <title>Quest Platform mark</title>
+  <rect x="8" y="8" width="104" height="104" rx="28" fill="#0F172A"/>
+  <path d="M36 42 C48 28 72 28 84 42" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M32 70 C32 58 44 52 60 52 C76 52 88 58 88 70 C88 82 76 88 60 88 C44 88 32 82 32 70 Z" fill="#3B82F6"/>
+  <circle cx="50" cy="70" r="4" fill="#FFFFFF"/>
+  <circle cx="70" cy="70" r="4" fill="#FFFFFF"/>
+  <path d="M48 58 C52 54 68 54 72 58" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
 </svg>
