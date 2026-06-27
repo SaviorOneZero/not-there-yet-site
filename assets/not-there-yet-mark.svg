@@ -6,22 +6,16 @@
       <stop offset="0.56" stop-color="#0F172A"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="route" x1="30" y1="89" x2="86" y2="30" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
   </defs>
 
   <rect x="8" y="8" width="104" height="104" rx="24" fill="url(#tile)"/>
-  <path d="M30 88 C50 70 42 54 61 45 C75 38 78 29 72 22" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-opacity="0.24" fill="none"/>
-  <path d="M30 88 C50 70 42 54 61 45 C75 38 78 29 72 22" stroke="url(#route)" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M30 86 C45 73 47 59 58 50 C67 43 75 39 80 31" stroke="#0B1220" stroke-width="21" stroke-linecap="round" fill="none"/>
+  <path d="M30 86 C45 73 47 59 58 50 C67 43 75 39 80 31" stroke="#93C5FD" stroke-width="15" stroke-linecap="round" fill="none"/>
 
-  <circle cx="30" cy="88" r="11" fill="#3B82F6"/>
-  <circle cx="30" cy="88" r="4.5" fill="#FFFFFF"/>
+  <circle cx="30" cy="86" r="15" fill="#3B82F6"/>
+  <circle cx="30" cy="86" r="6" fill="#FFFFFF"/>
 
-  <circle cx="56" cy="48" r="8" fill="#16A34A"/>
-  <circle cx="56" cy="48" r="3.5" fill="#FFFFFF"/>
-
-  <path d="M84 31 C84 44 72 55 72 55 C72 55 60 44 60 31 C60 24.4 65.4 19 72 19 C78.6 19 84 24.4 84 31 Z" fill="#F59E0B"/>
-  <circle cx="72" cy="31" r="5" fill="#FFFFFF"/>
+  <path d="M93 37 C93 55 78 68 78 68 C78 68 63 55 63 37 C63 28.7 69.7 22 78 22 C86.3 22 93 28.7 93 37 Z" fill="#0B1220"/>
+  <path d="M90 36 C90 51 78 62 78 62 C78 62 66 51 66 36 C66 29.4 71.4 24 78 24 C84.6 24 90 29.4 90 36 Z" fill="#F59E0B"/>
+  <circle cx="78" cy="36" r="6" fill="#FFFFFF"/>
 </svg>
