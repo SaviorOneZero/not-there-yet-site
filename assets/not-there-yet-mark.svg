@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Not There Yet mark">
+  <title>Not There Yet mark</title>
+
+  <rect x="10" y="10" width="100" height="100" rx="26" fill="#0F172A"/>
+
+  <path d="M36 42 C48 30 72 30 84 42" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M32 70 C32 58 44 52 60 52 C76 52 88 58 88 70 C88 82 76 88 60 88 C44 88 32 82 32 70 Z" fill="#3B82F6"/>
+
+  <circle cx="50" cy="70" r="4.5" fill="#FFFFFF"/>
+  <circle cx="70" cy="70" r="4.5" fill="#FFFFFF"/>
+  <path d="M48 58 C52 54 68 54 72 58" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>
