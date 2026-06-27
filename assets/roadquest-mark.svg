@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="RoadQuest mark">
   <title>RoadQuest mark</title>
   <path d="M60 10 L92 24 V44 C92 58 82 74 60 98 C38 74 28 58 28 44 V24 Z" fill="#F59E0B"/>
-  <path d="M40 40 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M40 56 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M40 72 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M46 82 C54 78 66 78 74 82" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <path d="M38 38 C44 32 52 30 60 30 C68 30 76 32 82 38" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <path d="M38 54 C44 48 52 46 60 46 C68 46 76 48 82 54" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <path d="M38 70 C44 64 52 62 60 62 C68 62 76 64 82 70" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+
+  <path d="M46 82 C52 78 58 76 64 76 C70 76 76 78 82 82" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
   <rect x="68" y="60" width="13" height="10" rx="3.2" fill="#3B82F6"/>
   <rect x="70.5" y="62" width="8" height="3.2" rx="1.6" fill="#FFFFFF"/>
   <circle cx="71" cy="67.5" r="1" fill="#FFFFFF"/>
