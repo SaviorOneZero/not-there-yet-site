@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="RoadQuest mark">
-  <title>RoadQuest mark</title>
-  <path d="M60 10 L92 24 V44 C92 58 82 74 60 98 C38 74 28 58 28 44 V24 Z" fill="#F59E0B"/>
-
-  <path d="M38 38 C44 32 52 30 60 30 C68 30 76 32 82 38" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
-  <path d="M38 54 C44 48 52 46 60 46 C68 46 76 48 82 54" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
-  <path d="M38 70 C44 64 52 62 60 62 C68 62 76 64 82 70" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" fill="none"/>
-
-  <path d="M46 82 C52 78 58 76 64 76 C70 76 76 78 82 82" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
-
-  <rect x="68" y="60" width="13" height="10" rx="3.2" fill="#3B82F6"/>
-  <rect x="70.5" y="62" width="8" height="3.2" rx="1.6" fill="#FFFFFF"/>
-  <circle cx="71" cy="67.5" r="1" fill="#FFFFFF"/>
-  <circle cx="76.5" cy="67.5" r="1" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Quest Platform icon">
+  <title>Quest Platform</title>
+  <rect x="16" y="16" width="88" height="88" rx="24" fill="#0F172A"/>
+  <path d="M36 40 C46 24 74 24 84 40" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M34 58 C44 52 56 50 68 50 C80 50 86 54 86 62 C86 74 72 82 58 82 C46 82 34 76 34 62 Z" fill="#3B82F6"/>
+  <path d="M46 58 C50 54 58 52 64 52 C70 52 76 54 80 58" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="54" cy="68" r="4" fill="#FFFFFF"/>
+  <circle cx="72" cy="68" r="4" fill="#FFFFFF"/>
 </svg>
