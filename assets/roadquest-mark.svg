@@ -1,18 +1,19 @@
-Here’s a tighter version with a slightly more rounded shield and a smaller controller, better aligned to the SwiftUI-style icon:
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="RoadQuest mark">
+  <title>RoadQuest mark</title>
+  <desc>Shield with road lanes and a small controller motif</desc>
 
-```svg
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RoadQuest mark">
-  <path d="M60 12 90 24v20c0 14-8 28-30 48-22-20-30-34-30-48V24L60 12Z" fill="#F59E0B"/>
-  <path d="M40 40h40" stroke="#fff" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M40 56h40" stroke="#fff" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M40 72h40" stroke="#fff" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M46 82c6-4 10-6 14-6 4 0 8 2 14 6" stroke="#fff" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <!-- Shield -->
+  <path d="M60 12 L90 24 V44 C90 58 82 72 60 94 C38 72 30 58 30 44 V24 L60 12 Z" fill="#F59E0B"/>
 
-  <path d="M70 60h8c1.8 0 3.2 1.4 3.2 3.2v5.6c0 1.8-1.4 3.2-3.2 3.2h-8c-1.8 0-3.2-1.4-3.2-3.2v-5.6C66.8 61.4 68.2 60 70 60Z" fill="#3B82F6"/>
-  <rect x="71" y="62" width="6" height="3.2" rx="1.6" fill="#fff"/>
-  <circle cx="71.2" cy="66.2" r="1" fill="#fff"/>
-  <circle cx="76.8" cy="66.2" r="1" fill="#fff"/>
+  <!-- Road lanes -->
+  <path d="M40 40 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M40 56 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M40 72 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M46 82 C52 78 64 76 72 82" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Controller (lower-right) -->
+  <rect x="70" y="60" width="12" height="10" rx="3" fill="#3B82F6"/>
+  <rect x="72.5" y="62.5" width="7" height="3.5" rx="1.75" fill="#FFFFFF"/>
+  <circle cx="73" cy="67" r="1" fill="#FFFFFF"/>
+  <circle cx="78" cy="67" r="1" fill="#FFFFFF"/>
 </svg>
-```
-
-If you want, I can also give you a version with the controller shifted slightly further down and right, so it sits even closer to the app’s actual icon placement.
