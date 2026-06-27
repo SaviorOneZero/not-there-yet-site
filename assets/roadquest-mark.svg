@@ -2,8 +2,15 @@
   <title>RoadQuest mark</title>
   <desc>Shield with road lanes and a small controller motif</desc>
 
-  <!-- Shield -->
-  <path d="M60 12 L90 24 V44 C90 58 82 72 60 94 C38 72 30 58 30 44 V24 L60 12 Z" fill="#F59E0B"/>
+  <!-- Rounded shield -->
+  <path d="M60 10
+           L92 24
+           C92 24 96 28 96 44
+           C96 60 84 78 60 98
+           C36 78 24 60 24 44
+           C24 28 28 24 28 24
+           L60 10 Z"
+        fill="#F59E0B" />
 
   <!-- Road lanes -->
   <path d="M40 40 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
@@ -11,9 +18,9 @@
   <path d="M40 72 H80" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
   <path d="M46 82 C52 78 64 76 72 82" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
 
-  <!-- Controller (lower-right) -->
-  <rect x="70" y="60" width="12" height="10" rx="3" fill="#3B82F6"/>
-  <rect x="72.5" y="62.5" width="7" height="3.5" rx="1.75" fill="#FFFFFF"/>
-  <circle cx="73" cy="67" r="1" fill="#FFFFFF"/>
-  <circle cx="78" cy="67" r="1" fill="#FFFFFF"/>
+  <!-- Small controller, lower-right -->
+  <rect x="74.5" y="64.5" width="12" height="9" rx="3" fill="#3B82F6"/>
+  <rect x="76.5" y="66" width="8" height="3" rx="1.25" fill="#FFFFFF"/>
+  <circle cx="77" cy="69.5" r="0.9" fill="#FFFFFF"/>
+  <circle cx="82.5" cy="69.5" r="0.9" fill="#FFFFFF"/>
 </svg>
