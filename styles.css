@@ -9,6 +9,8 @@
   --accent-soft: rgba(59, 130, 246, 0.12);
   --adventure: #f59e0b;
   --adventure-soft: rgba(245, 158, 11, 0.16);
+  --coral: #f97316;
+  --coral-soft: rgba(249, 115, 22, 0.14);
   --success: #16a34a;
   --border: rgba(31, 42, 55, 0.12);
   --shadow: 0 18px 46px rgba(15, 23, 42, 0.09);
@@ -29,7 +31,7 @@ body {
   color: var(--text);
   background:
     linear-gradient(90deg, rgba(59, 130, 246, 0.08) 0 1px, transparent 1px 100%),
-    linear-gradient(180deg, #fbfcff 0%, var(--bg) 100%);
+    linear-gradient(180deg, #fff7ed 0%, #f7fbff 38%, var(--bg) 100%);
   background-size: 4.5rem 100%, auto;
   line-height: 1.6;
 }
@@ -121,8 +123,11 @@ img {
 }
 
 .hero {
-  padding: 4.8rem 0 3.2rem;
+  padding: 4.8rem 0 3.4rem;
   overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(59, 130, 246, 0.08) 48%, rgba(22, 163, 74, 0.08));
+  border-bottom: 1px solid rgba(31, 42, 55, 0.08);
 }
 
 .hero-grid {
@@ -138,7 +143,7 @@ img {
 
 .eyebrow {
   margin: 0 0 0.5rem;
-  color: var(--accent);
+  color: #2563eb;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 0.76rem;
@@ -205,13 +210,13 @@ h3 {
 }
 
 .button.primary {
-  background: var(--deep);
+  background: linear-gradient(135deg, var(--deep), #1d4ed8);
   color: white;
-  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.2);
+  box-shadow: 0 12px 28px rgba(29, 78, 216, 0.24);
 }
 
 .button.secondary {
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.86);
   color: var(--text);
   border-color: var(--border);
 }
@@ -233,7 +238,7 @@ h3 {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(246, 249, 255, 0.98)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.98)),
     var(--surface);
 }
 
@@ -296,16 +301,25 @@ h3 {
   border-left: 3px solid var(--accent-soft);
 }
 
+.feature-list li:nth-child(2) {
+  border-left-color: var(--coral-soft);
+}
+
+.feature-list li:nth-child(3) {
+  border-left-color: rgba(22, 163, 74, 0.18);
+}
+
 .feature-list strong {
   color: var(--text);
 }
 
 .section {
-  padding: 1.4rem 0 2.5rem;
+  padding: 2rem 0 2.7rem;
 }
 
 .alt-section {
-  padding-top: 0.4rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 247, 237, 0.72));
+  padding-top: 2rem;
 }
 
 .section-heading {
@@ -330,8 +344,37 @@ h3 {
   padding: 1.25rem;
 }
 
+.info-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.28rem;
+  background: var(--accent);
+}
+
+.info-card:nth-child(2)::before {
+  background: var(--coral);
+}
+
+.info-card:nth-child(3)::before {
+  background: var(--success);
+}
+
 .roadmap-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 248, 232, 0.92) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 248, 232, 0.96) 100%);
+}
+
+.roadmap-card:nth-child(2) {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(239, 246, 255, 0.96) 100%);
+}
+
+.roadmap-card:nth-child(3) {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(240, 253, 244, 0.96) 100%);
 }
 
 .page-shell {
@@ -359,7 +402,7 @@ h3 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.9rem 1rem;
-  background: var(--surface-alt);
+  background: linear-gradient(135deg, var(--surface-alt), rgba(255, 255, 255, 0.86));
 }
 
 .faq-list summary {
