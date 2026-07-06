@@ -425,6 +425,16 @@ h3 {
   flex-wrap: wrap;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+}
+
+.release-entry .eyebrow {
+  color: #8a5200;
+}
+
 @media (max-width: 860px) {
   .hero-grid,
   .three-up,
@@ -470,7 +480,7 @@ h3 {
   }
 
   .site-nav a {
-    font-size: 0.96rem;
+    font-size: 0.92rem;
   }
 
   .hero {
@@ -547,5 +557,10 @@ h3 {
 
   .page-shell {
     padding-top: 1.6rem;
+  }
+
+  .footer-row {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }

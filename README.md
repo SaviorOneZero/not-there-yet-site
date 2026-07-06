@@ -1,3 +1,3 @@
 # not-there-yet-site
 
-Static marketing, support, and privacy site for the Not There Yet iOS app.
+Static product, FAQ, release notes, support, and privacy site for the Not There Yet iOS app.
