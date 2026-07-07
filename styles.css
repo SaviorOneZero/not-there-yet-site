@@ -1,19 +1,55 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("assets/fonts/fraunces-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("assets/fonts/fraunces-800.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("assets/fonts/source-sans-3-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("assets/fonts/source-sans-3-600.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("assets/fonts/source-sans-3-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --bg: #f5f7fb;
-  --surface: #ffffff;
-  --surface-alt: #eef3f7;
-  --text: #1f2a37;
-  --muted: #5e6978;
-  --deep: #0f172a;
-  --accent: #3b82f6;
-  --accent-soft: rgba(59, 130, 246, 0.12);
-  --adventure: #f59e0b;
-  --adventure-soft: rgba(245, 158, 11, 0.16);
-  --coral: #f97316;
-  --coral-soft: rgba(249, 115, 22, 0.14);
-  --success: #16a34a;
-  --border: rgba(31, 42, 55, 0.12);
-  --shadow: 0 18px 46px rgba(15, 23, 42, 0.09);
+  --bg: #fafaf8;
+  --surface: #fffdf8;
+  --surface-alt: #f2ede4;
+  --surface-warm: #f7f0e5;
+  --text: #2c2721;
+  --muted: #665f55;
+  --deep: #1d1a16;
+  --accent: #b0731f;
+  --accent-soft: rgba(176, 115, 31, 0.13);
+  --border: rgba(44, 39, 33, 0.14);
+  --shadow: 0 16px 34px rgba(44, 39, 33, 0.08);
   --radius: 8px;
 }
 
@@ -27,12 +63,9 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   color: var(--text);
-  background:
-    linear-gradient(90deg, rgba(59, 130, 246, 0.08) 0 1px, transparent 1px 100%),
-    linear-gradient(180deg, #fff7ed 0%, #f7fbff 38%, var(--bg) 100%);
-  background-size: 4.5rem 100%, auto;
+  background: var(--bg);
   line-height: 1.6;
 }
 
@@ -56,7 +89,7 @@ img {
   left: -9999px;
   top: 0;
   background: var(--text);
-  color: white;
+  color: var(--bg);
   padding: 0.75rem 1rem;
   z-index: 100;
 }
@@ -76,7 +109,7 @@ img {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(16px);
-  background: rgba(251, 252, 255, 0.88);
+  background: rgba(250, 250, 248, 0.9);
   border-bottom: 1px solid var(--border);
 }
 
@@ -125,9 +158,8 @@ img {
 .hero {
   padding: 4.8rem 0 3.4rem;
   overflow: hidden;
-  background:
-    linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(59, 130, 246, 0.08) 48%, rgba(22, 163, 74, 0.08));
-  border-bottom: 1px solid rgba(31, 42, 55, 0.08);
+  background: var(--surface-warm);
+  border-bottom: 1px solid var(--border);
 }
 
 .hero-grid {
@@ -143,9 +175,9 @@ img {
 
 .eyebrow {
   margin: 0 0 0.5rem;
-  color: #2563eb;
+  color: var(--accent);
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0;
   font-size: 0.76rem;
   font-weight: 700;
 }
@@ -153,22 +185,26 @@ img {
 h1,
 h2,
 h3 {
+  font-family: "Fraunces", serif;
   line-height: 1.15;
   margin: 0 0 0.75rem;
 }
 
 h1 {
-  font-size: clamp(2rem, 4vw, 3.3rem);
+  font-size: 3.25rem;
+  font-weight: 800;
   letter-spacing: 0;
 }
 
 h2 {
-  font-size: clamp(1.5rem, 2.8vw, 2rem);
+  font-size: 2rem;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
 h3 {
   font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .lead,
@@ -197,10 +233,10 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 0.8rem 1.1rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-weight: 700;
   border: 1px solid transparent;
-  transition: transform 160ms ease, box-shadow 160ms ease;
+  transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease;
 }
 
 .button:hover,
@@ -210,15 +246,20 @@ h3 {
 }
 
 .button.primary {
-  background: linear-gradient(135deg, var(--deep), #1d4ed8);
-  color: white;
-  box-shadow: 0 12px 28px rgba(29, 78, 216, 0.24);
+  background: var(--accent);
+  color: var(--surface);
+  border-color: var(--accent);
 }
 
 .button.secondary {
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--surface);
   color: var(--text);
   border-color: var(--border);
+}
+
+.button.secondary:hover,
+.button.secondary:focus-visible {
+  border-color: var(--accent);
 }
 
 .hero-card,
@@ -237,9 +278,7 @@ h3 {
 .trip-card {
   position: relative;
   overflow: hidden;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.98)),
-    var(--surface);
+  background: var(--surface);
 }
 
 .trip-card::before {
@@ -247,7 +286,7 @@ h3 {
   position: absolute;
   inset: 0 0 auto;
   height: 0.32rem;
-  background: linear-gradient(90deg, var(--accent), var(--adventure), var(--success));
+  background: var(--accent);
 }
 
 .trip-card > * {
@@ -257,9 +296,9 @@ h3 {
 .card-pill {
   display: inline-block;
   padding: 0.45rem 0.7rem;
-  border-radius: 999px;
-  background: var(--adventure-soft);
-  color: #8a5200;
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+  color: var(--accent);
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -274,16 +313,8 @@ h3 {
 
 .route-line span {
   height: 0.32rem;
-  border-radius: 999px;
-  background: var(--accent);
-}
-
-.route-line span:nth-child(2) {
-  background: var(--adventure);
-}
-
-.route-line span:nth-child(3) {
-  background: var(--success);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
 }
 
 .feature-list {
@@ -301,14 +332,6 @@ h3 {
   border-left: 3px solid var(--accent-soft);
 }
 
-.feature-list li:nth-child(2) {
-  border-left-color: var(--coral-soft);
-}
-
-.feature-list li:nth-child(3) {
-  border-left-color: rgba(22, 163, 74, 0.18);
-}
-
 .feature-list strong {
   color: var(--text);
 }
@@ -318,7 +341,7 @@ h3 {
 }
 
 .alt-section {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 247, 237, 0.72));
+  background: var(--surface-alt);
   padding-top: 2rem;
 }
 
@@ -357,24 +380,8 @@ h3 {
   background: var(--accent);
 }
 
-.info-card:nth-child(2)::before {
-  background: var(--coral);
-}
-
-.info-card:nth-child(3)::before {
-  background: var(--success);
-}
-
 .roadmap-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 248, 232, 0.96) 100%);
-}
-
-.roadmap-card:nth-child(2) {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(239, 246, 255, 0.96) 100%);
-}
-
-.roadmap-card:nth-child(3) {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(240, 253, 244, 0.96) 100%);
+  background: var(--surface);
 }
 
 .page-shell {
@@ -402,7 +409,7 @@ h3 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.9rem 1rem;
-  background: linear-gradient(135deg, var(--surface-alt), rgba(255, 255, 255, 0.86));
+  background: var(--surface);
 }
 
 .faq-list summary {
@@ -432,7 +439,7 @@ h3 {
 }
 
 .release-entry .eyebrow {
-  color: #8a5200;
+  color: var(--accent);
 }
 
 @media (max-width: 860px) {
@@ -448,13 +455,6 @@ h3 {
 }
 
 @media (max-width: 640px) {
-  body {
-    background:
-      linear-gradient(90deg, rgba(59, 130, 246, 0.045) 0 1px, transparent 1px 100%),
-      linear-gradient(180deg, #fff7ed 0%, #f7fbff 42%, var(--bg) 100%);
-    background-size: 5.5rem 100%, auto;
-  }
-
   .container {
     width: min(100% - 1.5rem, 1120px);
   }
@@ -493,18 +493,17 @@ h3 {
 
   .eyebrow {
     font-size: 0.68rem;
-    letter-spacing: 0.13em;
     margin-bottom: 0.45rem;
   }
 
   h1 {
-    font-size: clamp(2.25rem, 11vw, 3rem);
+    font-size: 2.35rem;
     line-height: 1.08;
     margin-bottom: 0.9rem;
   }
 
   h2 {
-    font-size: clamp(1.45rem, 7vw, 1.9rem);
+    font-size: 1.65rem;
   }
 
   .lead {
