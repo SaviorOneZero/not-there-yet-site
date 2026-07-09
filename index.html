@@ -7,7 +7,12 @@
       name="description"
       content="Not There Yet is a family road-trip game for the miles between here and there."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://savioronezero.github.io/not-there-yet-site/" />
+    <meta property="og:title" content="Not There Yet" />
+    <meta property="og:description" content="A family road-trip game for the miles between here and there." />
     <title>Not There Yet</title>
+    <link rel="icon" href="assets/not-there-yet-mark.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,6 +28,7 @@
           <a href="index.html" class="active" aria-current="page">Home</a>
           <a href="about.html">About</a>
           <a href="faq.html">FAQ</a>
+          <a class="nav-release" href="release-notes.html">Release Notes</a>
           <a href="support.html">Support</a>
           <a href="privacy.html">Privacy</a>
         </nav>
@@ -41,7 +47,13 @@
             </p>
             <div class="hero-actions">
               <a class="button secondary" href="about.html">How it works</a>
-              <a class="button primary" href="https://apps.apple.com/us/app/not-there-yet/id6781812383">App Store</a>
+              <a
+                class="app-store-badge"
+                href="https://apps.apple.com/us/app/not-there-yet/id6781812383"
+                aria-label="Download Not There Yet on the App Store"
+              >
+                <img src="assets/download-on-the-app-store.svg" alt="Download on the App Store" />
+              </a>
             </div>
           </div>
           <div class="hero-card trip-card" aria-label="Not There Yet game overview">
@@ -62,7 +74,7 @@
               </li>
               <li>
                 <strong>Keep it local</strong>
-                <span>No accounts, ads, tracking, analytics, or remote configuration. It plays on the device.</span>
+                <span>No accounts, ads, tracking, analytics, or remote configuration. Everything stays on your device.</span>
               </li>
             </ul>
           </div>
@@ -73,7 +85,7 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">What's inside</p>
-            <h2>Classic road-trip ideas, cleaned up for quick play.</h2>
+            <h2>Classic road-trip games, made for quick play.</h2>
           </div>
           <div class="card-grid three-up">
             <article class="info-card">
@@ -105,7 +117,13 @@
             </article>
             <article class="info-card roadmap-card">
               <h3>App Store link</h3>
-              <p><a href="https://apps.apple.com/us/app/not-there-yet/id6781812383">Download Not There Yet on the App Store</a>.</p>
+              <a
+                class="app-store-badge"
+                href="https://apps.apple.com/us/app/not-there-yet/id6781812383"
+                aria-label="Download Not There Yet on the App Store"
+              >
+                <img src="assets/download-on-the-app-store.svg" alt="Download on the App Store" />
+              </a>
             </article>
             <article class="info-card roadmap-card">
               <h3>Questions first?</h3>
@@ -124,6 +142,10 @@
           <a href="release-notes.html">Release Notes</a>
           <a href="mailto:questplatformapps@gmail.com">questplatformapps@gmail.com</a>
         </div>
+        <p class="legal-note">
+          Apple, the Apple logo, iPhone, iPad, and App Store are trademarks of Apple Inc., registered in the U.S. and
+          other countries and regions.
+        </p>
       </div>
     </footer>
   </body>

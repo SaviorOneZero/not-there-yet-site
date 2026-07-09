@@ -224,8 +224,25 @@ h3 {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.85rem;
   margin-top: 1.5rem;
+}
+
+.app-store-badge {
+  display: inline-block;
+  padding: 10px;
+  line-height: 0;
+}
+
+.app-store-badge img {
+  width: auto;
+  height: 40px;
+}
+
+.app-store-badge:hover,
+.app-store-badge:focus-visible {
+  text-decoration: none;
 }
 
 .button {
@@ -432,6 +449,13 @@ h3 {
   flex-wrap: wrap;
 }
 
+.legal-note {
+  flex-basis: 100%;
+  max-width: 90ch;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -485,6 +509,10 @@ h3 {
     padding-bottom: 0.08rem;
   }
 
+  .nav-release {
+    display: none;
+  }
+
   .hero {
     padding: 1.85rem 0 2.15rem;
   }
@@ -514,7 +542,7 @@ h3 {
   }
 
   .hero-actions {
-    align-items: stretch;
+    align-items: flex-start;
     flex-direction: column;
     gap: 0.65rem;
     margin-top: 1.15rem;
@@ -524,6 +552,10 @@ h3 {
     min-height: 3.25rem;
     padding: 0.72rem 1rem;
     width: 100%;
+  }
+
+  .hero-actions .app-store-badge {
+    align-self: center;
   }
 
   .hero-card {
