@@ -162,6 +162,35 @@ img {
   border-bottom: 1px solid var(--border);
 }
 
+.release-callout {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.release-callout-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem 1rem;
+  padding-top: 0.72rem;
+  padding-bottom: 0.72rem;
+  font-size: 0.94rem;
+}
+
+.release-callout-row strong {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.release-callout-row span {
+  flex: 1;
+  color: var(--muted);
+}
+
+.release-callout-row a {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr);
@@ -401,6 +430,89 @@ h3 {
   background: var(--surface);
 }
 
+.challenge-card {
+  padding-right: 1.25rem;
+  background:
+    radial-gradient(circle at 92% 18%, var(--accent-soft), transparent 34%),
+    var(--surface);
+}
+
+.supporting-grid {
+  margin-top: 1rem;
+}
+
+.card-kicker {
+  margin: 0 0 0.3rem;
+  color: var(--accent) !important;
+  font-size: 0.76rem !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.screenshot-section {
+  overflow: hidden;
+  background: var(--deep);
+  color: var(--surface);
+}
+
+.screenshot-heading {
+  max-width: 680px;
+}
+
+.screenshot-heading p:not(.eyebrow) {
+  margin: 0;
+  color: rgba(255, 253, 248, 0.72);
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+.screenshot-card {
+  min-width: 0;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid rgba(255, 253, 248, 0.14);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 248, 0.06);
+}
+
+.device-frame {
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 0.42rem;
+  overflow: hidden;
+  border: 2px solid rgba(255, 253, 248, 0.24);
+  border-radius: 2rem;
+  background: #0d0c0b;
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.3);
+}
+
+.device-frame img {
+  width: 100%;
+  border-radius: 1.55rem;
+}
+
+.screenshot-card figcaption {
+  display: grid;
+  gap: 0.22rem;
+  margin-top: 0.9rem;
+  text-align: center;
+}
+
+.screenshot-card figcaption strong {
+  font-family: "Fraunces", serif;
+  line-height: 1.2;
+}
+
+.screenshot-card figcaption span {
+  color: rgba(255, 253, 248, 0.7);
+  font-size: 0.92rem;
+}
+
 .page-shell {
   padding: 2.4rem 0 3rem;
 }
@@ -469,12 +581,22 @@ h3 {
 @media (max-width: 860px) {
   .hero-grid,
   .three-up,
-  .two-up {
+  .two-up,
+  .screenshot-grid {
     grid-template-columns: 1fr;
   }
 
   .hero-grid {
     gap: 1.4rem;
+  }
+
+  .challenge-card {
+    padding-right: 1.25rem;
+  }
+
+  .screenshot-grid {
+    max-width: 440px;
+    margin: 0 auto;
   }
 }
 
@@ -511,6 +633,13 @@ h3 {
 
   .nav-release {
     display: none;
+  }
+
+  .release-callout-row {
+    display: grid;
+    gap: 0.18rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
   }
 
   .hero {
