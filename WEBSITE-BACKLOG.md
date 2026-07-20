@@ -1,14 +1,12 @@
 # Website Backlog
 
-Small follow-up items for the Not There Yet public website. Keep this list focused on launch polish, trust, and low-maintenance site improvements.
+Small follow-up items for the Not There Yet public website. Release procedures and terminology live in `WEBSITE_MAINTENANCE.md`.
 
 ## Later
 
 - Add a proper PNG `apple-touch-icon` when a clean 180x180 or 1024x1024 app icon source is available.
-- Keep `release-notes.html` updated after each App Store release.
-- Add a short "Last updated" line to `privacy.html` if the privacy wording changes.
-- After future app releases, check that the App Store version, release notes, website copy, support email, and privacy claims all stay aligned.
-- Verify the public App Store description lists all six games after v1.3 is approved.
+- After v1.3 is approved, update the public App Store description to list all six games, say iPhone and iPad, use
+  Adventure Log terminology, and repeat the no-accounts, no-ads, no-subscriptions, and offline positioning.
 
 ## Completed for v1.3
 
