@@ -521,6 +521,22 @@ h3 {
   padding: 2.4rem 0 3rem;
 }
 
+.page-intro {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 92% 10%, rgba(244, 163, 64, 0.11), transparent 34%),
+    linear-gradient(135deg, #fffdf8, #fff8ed);
+}
+
+.page-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.22rem;
+  background: linear-gradient(90deg, var(--accent), #eea23d);
+}
+
 .content-stack {
   display: grid;
   gap: 1rem;
