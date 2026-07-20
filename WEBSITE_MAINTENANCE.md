@@ -10,15 +10,20 @@ When wording differs between the app, App Store, and website, resolve the differ
 
 ## Message Contract
 
+Primary positioning:
+
+> Not There Yet is a family road-trip game built for the miles between here and there.
+
 Repeat these durable ideas consistently wherever they are relevant:
 
 - Family-first road-trip play
 - Six included games
 - One shared device
 - iPhone and iPad
-- No accounts
+- No account required
 - No ads
 - No subscriptions
+- No analytics or tracking
 - Works offline
 - Adventures stay on the device
 
@@ -27,14 +32,33 @@ Use the official product terms exactly:
 - Road Crew
 - Adventure
 - Adventure Log
-- Roadside Challenge
 - License Plate Challenge
 - Alphabet Hunt
 - Vehicle Bingo
 - Roadside Oddities
 - Road Chain
+- Roadside Challenge
 
 Use **shared device** as the noun phrase. Prefer natural wording such as “play together on one shared device” instead of technical phrases such as “local-only,” “server connection,” or “remote configuration” outside the Privacy page.
+
+Capitalize **Adventure** only when referring to the product feature: “Start an Adventure.” Use lowercase for general language: “Every road trip becomes an adventure.”
+
+Use these canonical game descriptions:
+
+- **License Plate Challenge:** Spot license plates from all 50 states.
+- **Alphabet Hunt:** Find every letter from A to Z on signs, vehicles, and license plates.
+- **Vehicle Bingo:** Look for cars, trucks, buses, and other vehicles along the way.
+- **Roadside Oddities:** Discover giant objects, unusual landmarks, funny signs, and other roadside surprises.
+- **Road Chain:** Take turns finding something that starts with the last letter of the previous answer.
+- **Roadside Challenge:** Complete fun roadside spotting challenges and race to the winning score.
+
+Preferred experience copy:
+
+- Play together on one shared device.
+- Add your Road Crew.
+- Start an Adventure.
+- Play a single game or keep your Road Crew together across a full Adventure.
+- Just pass the device, look outside, and make the miles more fun.
 
 ## Release Workflow
 
@@ -74,7 +98,7 @@ Compare the website with the App Store listing line by line:
 - Number and names of included games
 - Family and shared device positioning
 - iPhone and iPad support
-- No accounts, ads, or subscriptions
+- No account required, no ads, and no subscriptions
 - Offline behavior and privacy claims
 - Support email and website URL
 - Screenshot order, captions, and visible UI

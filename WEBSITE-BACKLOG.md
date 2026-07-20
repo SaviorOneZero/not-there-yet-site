@@ -6,7 +6,7 @@ Small follow-up items for the Not There Yet public website. Release procedures a
 
 - Add a proper PNG `apple-touch-icon` when a clean 180x180 or 1024x1024 app icon source is available.
 - After v1.3 is approved, update the public App Store description to list all six games, say iPhone and iPad, use
-  Adventure Log terminology, and repeat the no-accounts, no-ads, no-subscriptions, and offline positioning.
+  Adventure Log terminology, and repeat the no-account-required, no-ads, no-subscriptions, and offline positioning.
 
 ## Completed for v1.3
 
