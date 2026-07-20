@@ -2,6 +2,15 @@
 
 This is the release checklist and messaging guide for the Not There Yet website. Keep it short, current, and useful.
 
+## Release Status
+
+The website is feature-complete and frozen for v1.3 as of July 20, 2026. Until the next meaningful product release,
+change it only to correct a factual error, resolve a production issue, or address a material accessibility problem.
+Avoid continuous copy or visual adjustments once a release is frozen.
+
+Known release-state exception: the public App Store listing still shows v1.2 while v1.3 is awaiting release. Recheck
+the listing after approval and complete the synchronization item in `WEBSITE-BACKLOG.md`.
+
 ## Ownership
 
 The product owner owns the core positioning, feature names, release story, and final copy approval. The person preparing a release owns the cross-surface audit, asset updates, link checks, and deployment verification.
@@ -139,3 +148,6 @@ A submitted version may appear on the website before it appears in the public Ap
 ## Completion Standard
 
 A website release is complete when the live site, current app, App Store listing, release notes, and screenshots tell the same product story—or when any temporary difference is intentional, documented, and scheduled for a follow-up check.
+
+After meeting this standard, record the freeze above. Reopen routine website work only when a meaningful product
+release changes the product story, included games, screenshots, support information, or privacy practices.
