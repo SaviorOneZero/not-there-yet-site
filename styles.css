@@ -42,12 +42,13 @@
   --bg: #fafaf8;
   --surface: #fffdf8;
   --surface-alt: #f2ede4;
-  --surface-warm: #f7f0e5;
+  --surface-warm: #fff0da;
   --text: #2c2721;
   --muted: #665f55;
   --deep: #1d1a16;
-  --accent: #b0731f;
-  --accent-soft: rgba(176, 115, 31, 0.13);
+  --accent: #c8661a;
+  --accent-strong: #a94d0d;
+  --accent-soft: rgba(200, 102, 26, 0.17);
   --border: rgba(44, 39, 33, 0.14);
   --shadow: 0 16px 34px rgba(44, 39, 33, 0.08);
   --radius: 8px;
@@ -158,13 +159,15 @@ img {
 .hero {
   padding: 4.8rem 0 3.4rem;
   overflow: hidden;
-  background: var(--surface-warm);
+  background:
+    radial-gradient(circle at 82% 18%, rgba(244, 163, 64, 0.24), transparent 34%),
+    linear-gradient(135deg, #fff8ec 0%, var(--surface-warm) 54%, #f9e3c4 100%);
   border-bottom: 1px solid var(--border);
 }
 
 .release-callout {
   border-bottom: 1px solid var(--border);
-  background: var(--surface);
+  background: linear-gradient(90deg, #fff8ed, #ffe4bf 52%, #fff8ed);
 }
 
 .release-callout-row {
@@ -292,9 +295,10 @@ h3 {
 }
 
 .button.primary {
-  background: var(--accent);
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
   color: var(--surface);
   border-color: var(--accent);
+  box-shadow: 0 9px 20px rgba(169, 77, 13, 0.2);
 }
 
 .button.secondary {
@@ -332,7 +336,7 @@ h3 {
   position: absolute;
   inset: 0 0 auto;
   height: 0.32rem;
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), #eea23d);
 }
 
 .trip-card > * {
@@ -423,7 +427,7 @@ h3 {
   position: absolute;
   inset: 0 0 auto;
   height: 0.28rem;
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), #eea23d);
 }
 
 .roadmap-card {
