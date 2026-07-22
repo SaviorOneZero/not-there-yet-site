@@ -665,14 +665,18 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+.footer-row > p {
+  margin: 0;
 }
 
 .legal-note {
   flex-basis: 100%;
   max-width: 90ch;
-  margin: 0;
   font-size: 0.75rem;
 }
 
