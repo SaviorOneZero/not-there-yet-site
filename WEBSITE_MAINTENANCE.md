@@ -4,12 +4,16 @@ This is the release checklist and messaging guide for the Not There Yet website.
 
 ## Release Status
 
-The website is feature-complete and frozen for v1.3 as of July 20, 2026. Until the next meaningful product release,
-change it only to correct a factual error, resolve a production issue, or address a material accessibility problem.
-Avoid continuous copy or visual adjustments once a release is frozen.
+The production website on `main` was updated on July 22, 2026 with the upcoming v1.3 feature set and the planned
+v1.3.1 iOS 16 and iPadOS 16 compatibility information.
 
-Known release-state exception: the public App Store listing still shows v1.2 while v1.3 is awaiting release. Recheck
-the listing after approval and complete the synchronization item in `WEBSITE-BACKLOG.md`.
+The product owner explicitly approved publishing these updates ahead of App Store synchronization. The public App
+Store listing currently shows Version 1.2 and requires iOS 17.6 or later. Recheck the listing after v1.3 and v1.3.1
+become available and complete the synchronization items in `WEBSITE-BACKLOG.md`.
+
+Until the next meaningful product release, change the site only to correct a factual error, resolve a production
+issue, complete App Store synchronization, or address a material accessibility problem. Avoid continuous copy or
+visual adjustments once a release is frozen.
 
 ## Ownership
 
@@ -59,7 +63,7 @@ Use these canonical game descriptions:
 - **Vehicle Bingo:** Look for cars, trucks, buses, and other vehicles along the way.
 - **Roadside Oddities:** Discover giant objects, unusual landmarks, funny signs, and other roadside surprises.
 - **Road Chain:** Take turns finding something that starts with the last letter of the previous answer.
-- **Roadside Challenge:** Complete fun roadside spotting challenges and race to the winning score.
+- **Roadside Challenge:** Take turns drawing roadside spotting prompts and race to the target score.
 
 Preferred experience copy:
 
@@ -132,6 +136,14 @@ A submitted version may appear on the website before it appears in the public Ap
 - Store final App Store exports in `assets/app-store/exports/<device>/`.
 - Store only the optimized images used by the website in `assets/screenshots/`.
 - Give website images specific alternative text that describes the useful screen content.
+
+### 6. Deploy the website
+
+- Prepare and review changes on a dedicated branch; `main` represents the production website.
+- Merge the reviewed branch into `main` after the applicable release gates in `WEBSITE-BACKLOG.md` are complete,
+  unless the product owner explicitly approves and documents a temporary cross-surface difference.
+- GitHub Pages deploys changes from `main` automatically; this repository has no separate build step.
+- After deployment, verify <https://savioronezero.github.io/not-there-yet-site/> and every public page listed below.
 
 ## Pre-Publish Checklist
 

@@ -1,6 +1,8 @@
 # Website Backlog
 
-Small follow-up items for the Not There Yet public website. Release procedures and terminology live in `WEBSITE_MAINTENANCE.md`.
+Small follow-up items for the Not There Yet public website. Release procedures and terminology live in
+`WEBSITE_MAINTENANCE.md`; application product planning and implementation work belong in the separate iOS
+application repository.
 
 ## Later
 
@@ -8,11 +10,16 @@ Small follow-up items for the Not There Yet public website. Release procedures a
 - After v1.3 is approved, update the public App Store description to list all six games, say iPhone and iPad, use
   Adventure Log terminology, and repeat the no-account-required, no-ads, no-subscriptions, and offline positioning.
 
-## Prepared for v1.3.1
+## Pending App Store synchronization
 
-- Publish the homepage compatibility callout when v1.3.1 is available on the App Store.
-- Publish the v1.3.1 release note and FAQ requirements of iOS 16 or later and iPadOS 16 or later.
-- Confirm the public App Store compatibility field shows the new minimum OS before merging the website draft.
+The website publishes the upcoming v1.3 feature set and the planned v1.3.1 compatibility information ahead of the
+App Store listing by explicit product-owner approval.
+
+- After v1.3 becomes available, confirm the App Store description, screenshots, game count, and Adventure Log
+  terminology.
+- After v1.3.1 becomes available, confirm the public compatibility field shows iOS 16 or later and iPadOS 16 or
+  later.
+- Recheck the homepage, FAQ, and Release Notes after each App Store release.
 
 ## Completed for v1.3
 
