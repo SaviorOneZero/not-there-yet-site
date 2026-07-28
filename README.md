@@ -45,6 +45,19 @@ Those materials are maintained in the separate [Not There Yet iOS application re
 
 The site has no build step, package manager, JavaScript application, or server-side component. All public pages are standalone HTML files using the shared stylesheet and repository assets.
 
+## SEO and social metadata
+
+Site-wide metadata defaults, the production base URL, the shared social image path, and page-specific overrides live
+in `site-metadata.json`. After changing that file, render and validate every server-delivered page:
+
+```sh
+ruby scripts/render-metadata.rb
+ruby scripts/validate-metadata.rb
+```
+
+Changing `siteUrl` updates every canonical URL, Open Graph URL, and absolute social image URL in one pass. The social
+preview artwork can be regenerated on macOS with `swift scripts/create-social-preview.swift`.
+
 ## Working locally
 
 Most content can be reviewed by opening `index.html` directly. To check the site with normal HTTP behavior, run a local static server from the repository root:
