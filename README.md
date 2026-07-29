@@ -56,7 +56,7 @@ ruby scripts/validate-metadata.rb
 ```
 
 Changing `siteUrl` updates every canonical URL, Open Graph URL, and absolute social image URL in one pass. The social
-preview artwork can be regenerated on macOS with `swift scripts/create-social-preview.swift`.
+preview artwork is stored at `assets/not-there-yet-social-preview.png`.
 
 ## Working locally
 
