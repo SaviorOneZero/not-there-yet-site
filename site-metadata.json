@@ -3,7 +3,7 @@
   "siteName": "Not There Yet",
   "defaultTitle": "Not There Yet. Family Road Trip Game",
   "defaultDescription": "A family road trip game for iPhone and iPad featuring six classic games, offline play, and no accounts, ads, or subscriptions.",
-  "socialImagePath": "/assets/not-there-yet-social-preview.png",
+  "socialImagePath": "/assets/not-there-yet-social-preview.png?v=2",
   "socialImageAlt": "Not There Yet family road trip game for iPhone and iPad",
   "pages": {
     "index.html": {
