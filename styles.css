@@ -551,10 +551,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-  align-items: end;
+  align-items: stretch;
 }
 
 .screenshot-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   margin: 0;
   padding: 1rem;
@@ -584,6 +586,23 @@ h3 {
   gap: 0.22rem;
   margin-top: 0.9rem;
   text-align: center;
+}
+
+.screenshot-card .device-frame {
+  flex: 1 0 auto;
+}
+
+.screenshot-card.tablet-card {
+  grid-column: 1 / -1;
+}
+
+.tablet-card .device-frame {
+  max-width: 460px;
+  border-radius: 1.7rem;
+}
+
+.tablet-card .device-frame img {
+  border-radius: 1.25rem;
 }
 
 .screenshot-card figcaption strong {
@@ -736,7 +755,8 @@ h3 {
   }
 
   .screenshot-grid {
-    max-width: 440px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 760px;
     margin: 0 auto;
   }
 
@@ -884,6 +904,15 @@ h3 {
 
   .game-grid {
     grid-template-columns: 1fr;
+  }
+
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+  }
+
+  .screenshot-card.tablet-card {
+    grid-column: auto;
   }
 
   .game-grid .info-card:nth-child(n) {
