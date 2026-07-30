@@ -32,7 +32,7 @@
     "privacy.html": {
       "path": "/privacy.html",
       "title": "Privacy Policy. Not There Yet",
-      "description": "Read how Not There Yet keeps gameplay data on your device and handles information you choose to send in a support email."
+      "description": "Learn how Not There Yet keeps gameplay data local, uses no accounts or tracking, and works with Apple backups and GitHub Pages."
     },
     "age-suitability.html": {
       "path": "/age-suitability.html",
