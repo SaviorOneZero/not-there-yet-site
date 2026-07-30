@@ -2,7 +2,7 @@
   "siteUrl": "https://savioronezero.github.io/not-there-yet-site",
   "siteName": "Not There Yet",
   "defaultTitle": "Not There Yet. Family Road Trip Game",
-  "defaultDescription": "Resume an Adventure or start another with your remembered Road Crew in this shared-device family road trip game for iPhone and iPad.",
+  "defaultDescription": "Resume an Adventure or start another with your remembered Road Crew in this shared-device road trip game with U.S. and Great Britain content.",
   "socialImagePath": "/assets/not-there-yet-social-preview.png?v=3",
   "socialImageAlt": "Not There Yet v1.4 family road trip game showing Road Crew members and a Resume Adventure screen",
   "pages": {
@@ -12,22 +12,22 @@
     "about.html": {
       "path": "/about.html",
       "title": "About Not There Yet",
-      "description": "See how Not There Yet helps families resume an Adventure or quickly start another with a remembered Road Crew on one shared device."
+      "description": "Learn how families play six offline road trip games together with content made for the United States and Great Britain."
     },
     "faq.html": {
       "path": "/faq.html",
       "title": "FAQ. Not There Yet",
-      "description": "Find answers about Adventures, remembered Road Crews, six included games, offline play, privacy, and shared-device family play."
+      "description": "Find answers about Adventures, Road Crews, U.S. and Great Britain road-trip regions, offline play, privacy, and shared-device family play."
     },
     "release-notes.html": {
       "path": "/release-notes.html",
       "title": "Release Notes. Not There Yet",
-      "description": "See what is new in Not There Yet v1.4, including faster resume flows, remembered Road Crews, Adventure naming, and refreshed layouts."
+      "description": "See what is new in Not There Yet v1.4, including faster resume flows, remembered Road Crews, and U.S. and Great Britain road-trip regions."
     },
     "support.html": {
       "path": "/support.html",
       "title": "Support. Not There Yet",
-      "description": "Get help with Not There Yet Adventures, Road Crews, game pieces, saved progress, and six family road trip games for iPhone and iPad."
+      "description": "Get help with Not There Yet Adventures, Road Crews, regional content, saved progress, and six family road trip games for iPhone and iPad."
     },
     "privacy.html": {
       "path": "/privacy.html",

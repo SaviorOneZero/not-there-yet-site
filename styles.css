@@ -492,6 +492,31 @@ h3 {
   font-weight: 700;
 }
 
+.region-banner {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.7fr) minmax(0, 1.3fr);
+  gap: 1.5rem 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1.3rem 1.4rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(135deg, var(--surface), var(--surface-warm));
+}
+
+.region-banner h3,
+.region-banner p {
+  margin: 0;
+}
+
+.region-banner .eyebrow {
+  margin-bottom: 0.35rem;
+}
+
+.region-banner > p {
+  color: var(--muted);
+}
+
 .card-kicker {
   margin: 0 0 0.3rem;
   color: var(--accent-strong) !important;
@@ -742,7 +767,8 @@ h3 {
   .three-up,
   .two-up,
   .screenshot-grid,
-  .supporting-grid {
+  .supporting-grid,
+  .region-banner {
     grid-template-columns: 1fr;
   }
 
