@@ -4,12 +4,10 @@ This is the release checklist and messaging guide for the Not There Yet website.
 
 ## Release Status
 
-The production website on `main` was updated on July 22, 2026 with the upcoming v1.3 feature set and the planned
-v1.3.1 iOS 16 and iPadOS 16 compatibility information.
-
-The product owner explicitly approved publishing these updates ahead of App Store synchronization. The public App
-Store listing currently shows Version 1.2 and requires iOS 17.6 or later. Recheck the listing after v1.3 and v1.3.1
-become available and complete the synchronization items in `WEBSITE-BACKLOG.md`.
+The website is aligned with the released v1.4 App Store listing as of August 10, 2026. The public listing shows
+Version 1.4, supports iOS and iPadOS 16 or later, and is available in the U.S., UK, Canadian, and Australian stores.
+The app provides selectable road-trip content for the United States and Great Britain; Canada and Australia are
+availability regions, not separate in-app content settings.
 
 Until the next meaningful product release, change the site only to correct a factual error, resolve a production
 issue, complete App Store synchronization, or address a material accessibility problem. Avoid continuous copy or

@@ -7,19 +7,13 @@ application repository.
 ## Later
 
 - Add a proper PNG `apple-touch-icon` when a clean 180x180 or 1024x1024 app icon source is available.
-- After v1.3 is approved, update the public App Store description to list all six games, say iPhone and iPad, use
-  Adventure Log terminology, and repeat the no-account-required, no-ads, no-subscriptions, and offline positioning.
 
-## Pending App Store synchronization
+## Completed for v1.4
 
-The website publishes the upcoming v1.3 feature set and the planned v1.3.1 compatibility information ahead of the
-App Store listing by explicit product-owner approval.
-
-- After v1.3 becomes available, confirm the App Store description, screenshots, game count, and Adventure Log
-  terminology.
-- After v1.3.1 becomes available, confirm the public compatibility field shows iOS 16 or later and iPadOS 16 or
-  later.
-- Recheck the homepage, FAQ, and Release Notes after each App Store release.
+- Synchronized the website with the released v1.4 App Store description, release notes, and iOS/iPadOS 16 requirement.
+- Documented U.S. and Great Britain content regions separately from U.S., UK, Canadian, and Australian storefront availability.
+- Added Resume Adventure, remembered Road Crew, Adventure naming, Player Stats, winners, family leaderboard, and refreshed Trip Summary messaging.
+- Verified that all website screenshots show the v1.4 interface and removed unused pre-v1.4 website screenshots.
 
 ## Completed for v1.3
 

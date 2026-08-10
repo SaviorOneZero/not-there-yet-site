@@ -70,11 +70,19 @@ body {
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
   color: var(--accent-strong);
   text-decoration: none;
+}
+
+p,
+li,
+summary,
+figcaption {
+  overflow-wrap: anywhere;
 }
 
 a:hover,
@@ -153,7 +161,7 @@ img {
 .site-nav a {
   display: inline-flex;
   align-items: center;
-  min-height: 24px;
+  min-height: 44px;
   color: var(--muted);
   font-weight: 600;
   padding-bottom: 0.18rem;
@@ -697,6 +705,9 @@ h3 {
   cursor: pointer;
   font-weight: 700;
   color: var(--text);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
 .site-footer {
@@ -820,7 +831,7 @@ h3 {
   .site-nav a {
     font-size: 0.92rem;
     line-height: 1.2;
-    min-height: 32px;
+    min-height: 44px;
     padding: 0.2rem 0;
   }
 
@@ -843,7 +854,7 @@ h3 {
   .release-callout-row a {
     display: inline-flex;
     align-items: center;
-    min-height: 32px;
+    min-height: 44px;
     text-align: right;
   }
 
