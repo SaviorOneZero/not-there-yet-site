@@ -1,24 +1,13 @@
 # Website Backlog
 
-Small follow-up items for the Not There Yet public website. Release procedures and terminology live in
-`WEBSITE_MAINTENANCE.md`; application product planning and implementation work belong in the separate iOS
-application repository.
+Small, current follow-up items for the Not There Yet public website. Release procedures and terminology live in `WEBSITE_MAINTENANCE.md`; application product planning and implementation work belong in the separate iOS application repository.
 
-## Later
+Completed website work is tracked in Git history, release notes, and closed GitHub Issues rather than retained here indefinitely.
+
+## Open
 
 - Add a proper PNG `apple-touch-icon` when a clean 180x180 or 1024x1024 app icon source is available.
 
-## Completed for v1.4
+## Release maintenance
 
-- Synchronized the website with the released v1.4 App Store description, release notes, and iOS/iPadOS 16 requirement.
-- Documented U.S. and Great Britain content regions separately from U.S., UK, Canadian, and Australian storefront availability.
-- Added Resume Adventure, remembered Road Crew, Adventure naming, Player Stats, winners, family leaderboard, and refreshed Trip Summary messaging.
-- Verified that all website screenshots show the v1.4 interface and removed unused pre-v1.4 website screenshots.
-
-## Completed for v1.3
-
-- Added Roadside Challenge to the homepage as the headline v1.3 feature.
-- Added real Roadside Challenge, Vehicle Bingo, and Adventure Log screenshots to the homepage.
-- Archived the seven final iPhone and seven final iPad App Store screenshots in `assets/app-store/exports/`.
-- Added the full v1.3 release entry above v1.2, v1.1, and v1.0.
-- Updated the homepage to describe the six-game collection.
+When the iOS app ships a meaningful new release, review the website against the current App Store listing and update only the pages, screenshots, metadata, support information, or privacy wording that materially changed. Follow `WEBSITE_MAINTENANCE.md` for the release checklist.
