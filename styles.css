@@ -90,6 +90,12 @@ a:focus-visible {
   text-decoration: underline;
 }
 
+:where(p, li) a:not(.button):not(.app-store-badge) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
 :focus-visible {
   outline: 3px solid var(--accent-deep);
   outline-offset: 3px;
@@ -725,8 +731,27 @@ h3 {
   flex-wrap: wrap;
 }
 
+.footer-row > *,
+.footer-links {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.footer-links a {
+  overflow-wrap: anywhere;
+}
+
 .footer-row > p {
   margin: 0;
+}
+
+.studio-attribution p {
+  margin: 0;
+}
+
+.studio-attribution p + p {
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
 }
 
 .legal-note {
@@ -975,6 +1000,11 @@ h3 {
   }
 
   .footer-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-links {
     align-items: flex-start;
     flex-direction: column;
   }

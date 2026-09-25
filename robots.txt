@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://not-there-yet.sync33.com/sitemap.xml

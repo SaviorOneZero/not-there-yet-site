@@ -140,7 +140,7 @@ A submitted version may appear on the website before it appears in the public Ap
 - Prepare and review changes on a dedicated branch; `main` represents the production website.
 - Merge the reviewed branch into `main` after the applicable release gates in `WEBSITE-BACKLOG.md` are complete,
   unless the product owner explicitly approves and documents a temporary cross-surface difference.
-- GitHub Pages deploys changes from `main` automatically; this repository has no separate build step.
+- Vercel publishes the canonical product domain and GitHub Pages preserves the legacy project-site URLs; this repository has no framework or package build step.
 - After deployment, verify <https://savioronezero.github.io/not-there-yet-site/> and every public page listed below.
 
 ## Pre-Publish Checklist

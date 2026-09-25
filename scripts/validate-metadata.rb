@@ -17,6 +17,7 @@ config.fetch("pages").each do |file, page|
   {
     "title" => /<title>#{Regexp.escape(expected_title)}<\/title>/,
     "description" => /<meta name="description" content="#{Regexp.escape(expected_description)}" \/>/,
+    "author" => /<meta name="author" content="Sync33 Laboratories" \/>/,
     "canonical" => /<link rel="canonical" href="#{Regexp.escape(expected_canonical)}" \/>/,
     "og:url" => /<meta property="og:url" content="#{Regexp.escape(expected_canonical)}" \/>/,
     "og:title" => /<meta property="og:title" content="#{Regexp.escape(expected_title)}" \/>/,

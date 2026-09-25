@@ -8,7 +8,7 @@ The website supports the Not There Yet iOS application, but it is a separate pro
 
 This repository contains:
 
-- The static HTML pages published at <https://savioronezero.github.io/not-there-yet-site/>
+- The static HTML pages published canonically at <https://not-there-yet.sync33.com/>
 - Shared website styling, fonts, brand assets, and optimized screenshots
 - App Store screenshot masters and exports used during release preparation
 - Website release procedures, messaging guidance, and follow-up work
@@ -70,15 +70,15 @@ Then open <http://localhost:8000/> and review every public page at desktop and m
 
 ## Deployment
 
-Production is served by GitHub Pages from the `main` branch. The normal workflow is:
+Production is served canonically by an independent Vercel project at <https://not-there-yet.sync33.com/>. GitHub Pages continues to publish `main` at <https://savioronezero.github.io/not-there-yet-site/> as a compatible legacy entry point. The normal workflow is:
 
 1. Prepare and review website changes on a dedicated branch.
 2. Follow the release and pre-publish checks in [WEBSITE_MAINTENANCE.md](WEBSITE_MAINTENANCE.md).
 3. Confirm that any release-specific gates in [WEBSITE-BACKLOG.md](WEBSITE-BACKLOG.md) are satisfied, or document an
    explicitly approved temporary difference.
 4. Merge the reviewed branch into `main` when the website is ready to publish.
-5. GitHub Pages deploys the new `main` revision automatically.
-6. Verify the live homepage, all public pages, links, and image assets after deployment.
+5. Vercel publishes the canonical deployment and GitHub Pages updates the legacy copy.
+6. Verify both hosts, the clean `/support/` and `/privacy/` routes, flat legacy URLs, links, and image assets after deployment.
 
 Coordinate release timing with the iOS app and App Store listing. A temporary difference is acceptable only when it is intentional, documented, and assigned a follow-up check.
 

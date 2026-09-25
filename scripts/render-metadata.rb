@@ -19,6 +19,7 @@ config.fetch("pages").each do |file, page|
     <!-- site-metadata:start; generated from site-metadata.json -->
     <title>#{CGI.escapeHTML(title)}</title>
     <meta name="description" content="#{CGI.escapeHTML(description)}" />
+    <meta name="author" content="Sync33 Laboratories" />
     <link rel="canonical" href="#{CGI.escapeHTML(canonical_url)}" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="#{CGI.escapeHTML(config.fetch("siteName"))}" />

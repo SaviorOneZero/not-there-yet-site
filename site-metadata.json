@@ -1,5 +1,5 @@
 {
-  "siteUrl": "https://savioronezero.github.io/not-there-yet-site",
+  "siteUrl": "https://not-there-yet.sync33.com",
   "siteName": "Not There Yet",
   "defaultTitle": "Not There Yet. Family Road Trip Game",
   "defaultDescription": "Resume an Adventure or start another with your remembered Road Crew in this shared-device road trip game with U.S. and Great Britain content.",
@@ -25,14 +25,14 @@
       "description": "See what is new in Not There Yet v1.4, including faster resume flows, remembered Road Crews, and U.S. and Great Britain road-trip regions."
     },
     "support.html": {
-      "path": "/support.html",
+      "path": "/support/",
       "title": "Support. Not There Yet",
       "description": "Get help with Not There Yet Adventures, Road Crews, regional content, saved progress, and six family road trip games for iPhone and iPad."
     },
     "privacy.html": {
-      "path": "/privacy.html",
+      "path": "/privacy/",
       "title": "Privacy Policy. Not There Yet",
-      "description": "Learn how Not There Yet keeps gameplay data local, uses no accounts or tracking, and works with Apple backups and GitHub Pages."
+      "description": "Learn how Not There Yet keeps gameplay data local, uses no accounts or tracking, and works with Apple backups and static website hosting."
     },
     "age-suitability.html": {
       "path": "/age-suitability.html",
