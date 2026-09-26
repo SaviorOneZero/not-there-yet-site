@@ -6,7 +6,9 @@
   ],
   "rewrites": [
     { "source": "/support/", "destination": "/support.html" },
-    { "source": "/privacy/", "destination": "/privacy.html" }
+    { "source": "/privacy/", "destination": "/privacy.html" },
+    { "source": "/support/:path*", "destination": "/:path*" },
+    { "source": "/privacy/:path*", "destination": "/:path*" }
   ],
   "headers": [
     {
